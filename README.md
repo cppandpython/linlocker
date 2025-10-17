@@ -1,34 +1,7 @@
 # 🌟 linlocker
 
 
-linlocker — Блокирует систему и шифрует файлы
-
----
-
-## 🚀 Возможности
-
-- ✅ Блокирует и шифрует
-- 📦 Только встроенные библиотеки
-
----
-
-## 🧰 Установка
-
-```bash
-# Клонируй репозиторий
-git clone https://github.com/cpythonkiller/linlocker.git
-
-# Запуск
-python linlocker.py
-```
-
-<br><br>
-
-![linlocker.png](linlocker.png)
-
-
-<br><br><br>
-
+## en
 
 linlocker — Locks the system and encrypts files
 
@@ -48,6 +21,37 @@ linlocker — Locks the system and encrypts files
 git clone https://github.com/cpythonkiller/linlocker.git
 
 # Launch
+python linlocker.py
+```
+
+<br><br>
+
+![linlocker.png](linlocker.png)
+
+
+<br><br><br>
+
+
+##ru
+
+linlocker — Блокирует систему и шифрует файлы
+
+---
+
+## 🚀 Возможности
+
+- ✅ Блокирует и шифрует
+- 📦 Только встроенные библиотеки
+
+---
+
+## 🧰 Установка
+
+```bash
+# Клонируй репозиторий
+git clone https://github.com/cpythonkiller/linlocker.git
+
+# Запуск
 python linlocker.py
 ```
 
