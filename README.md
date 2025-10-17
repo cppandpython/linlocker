@@ -25,3 +25,32 @@ python linlocker.py
 <br><br>
 
 ![linlocker.png](linlocker.png)
+
+
+<br><br><br>
+
+
+linlocker — Locks the system and encrypts files
+
+---
+
+## 🚀 Possibilities
+
+- ✅ Locks and encrypts
+- 📦 Built-in libraries only
+
+---
+
+## 🧰 Installation
+
+```bash
+# Clone repository
+git clone https://github.com/cpythonkiller/linlocker.git
+
+# Launch
+python linlocker.py
+```
+
+<br><br>
+
+![linlocker.png](linlocker.png)
