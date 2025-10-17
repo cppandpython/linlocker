@@ -4,16 +4,18 @@
 
 ## en
 
+<br>
+
 linlocker — Locks the system and encrypts files
 
----
+<br>
 
 ## 🚀 Possibilities
 
 - ✅ Locks and encrypts
 - 📦 Built-in libraries only
 
----
+<br>
 
 ## 🧰 Installation
 
@@ -40,16 +42,18 @@ python linlocker.py
 
 ## ru
 
+<br>
+
 linlocker — Блокирует систему и шифрует файлы
 
----
+<br>
 
 ## 🚀 Возможности
 
 - ✅ Блокирует и шифрует
 - 📦 Только встроенные библиотеки
 
----
+<br>
 
 ## 🧰 Установка
 
