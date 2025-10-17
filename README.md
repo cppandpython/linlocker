@@ -32,7 +32,7 @@ python linlocker.py
 <br><br><br>
 
 
-##ru
+## ru
 
 linlocker — Блокирует систему и шифрует файлы
 
