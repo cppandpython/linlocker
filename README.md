@@ -21,3 +21,7 @@ git clone https://github.com/cpythonkiller/linlocker.git
 # Запуск
 python linlocker.py
 ```
+
+<br><br>
+
+![linlocker.png](linlocker.png)
