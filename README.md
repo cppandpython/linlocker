@@ -8,7 +8,7 @@
 
 <br>
 
-linlocker — Locks the system and encrypts files
+linlocker — Lock the system and encrypt files
 
 <br>
 
