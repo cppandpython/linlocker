@@ -1,6 +1,8 @@
 # 🌟 linlocker
 
+
 <br><br>
+
 
 ## en
 
@@ -10,7 +12,7 @@ linlocker — Locks the system and encrypts files
 
 <br>
 
-## 🚀 Possibilities
+## 🚀 Features
 
 - ✅ Locks and encrypts
 - 📦 Built-in libraries only
@@ -48,7 +50,7 @@ linlocker — Блокирует систему и шифрует файлы
 
 <br>
 
-## 🚀 Возможности
+## 🚀 Функции
 
 - ✅ Блокирует и шифрует
 - 📦 Только встроенные библиотеки
