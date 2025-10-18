@@ -14,7 +14,7 @@ linlocker — Lock the system and encrypt files
 
 ## 🚀 Features
 
-- ✅ Locks and encrypts
+- ✅ Lock and encrypt
 - 📦 Built-in libraries only
 
 <br>
