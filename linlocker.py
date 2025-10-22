@@ -136,6 +136,7 @@ Type=idle
 
 def welcome():
     sp.run(['clear'])
+    
     print(LOGO)
     print('\n\nYour system is completely locked')
     print('Enter password to unlock it')
