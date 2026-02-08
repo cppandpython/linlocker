@@ -2,6 +2,8 @@
 
 
 <br><br>
+![linlocker.png](linlocker.png)
+<br><br>
 
 
 ## en
@@ -33,10 +35,6 @@ KEY = 'YOUR KEY'
 # Launch
 python linlocker.py
 ```
-
-<br><br>
-
-![linlocker.png](linlocker.png)
 
 
 <br><br><br>
@@ -71,7 +69,3 @@ KEY = 'ВАШ КЛЮЧ'
 # Запуск
 python linlocker.py
 ```
-
-<br><br>
-
-![linlocker.png](linlocker.png)
