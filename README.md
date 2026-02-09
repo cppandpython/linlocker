@@ -63,7 +63,7 @@ git clone https://github.com/cpythonkiller/linlocker.git
 
 # Изменить в linlocker.py
 PASSWORD = ЗДЕСЬ УКАЗЫВАЕТСЯ ПАРОЛЬ LINLOCKER
-ENCRYPTION = ОТВЕЧАЕТ ЗА ШИФРОВАНИЕ (ВКЛЮЧЕНО, ЕСЛИ ENCRYPTION == TRUE, ИНАЧЕ ОТКЛЮЧЕНО)
+ENCRYPTION = ОТВЕЧАЕТ ЗА ШИФРОВАНИЕ (ВКЛЮЧЕНО ЕСЛИ ENCRYPTION == True ИНАЧЕ ОТКЛЮЧЕНО)
 MSG = ОПЦИОНАЛЬНО
 
 # Запуск
